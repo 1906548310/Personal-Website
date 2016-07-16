@@ -4,14 +4,14 @@ A website which can **introduce** myself.
 *Begin at 14:51 7/16/2016.*
 
 ###Some Tips:
-- It should be beautiful;
-- It should be responsive;
-- It can store some data in the database.
+1. It should be beautiful;
+2. It should be responsive;
+3. It can store some data in the database.
 
-
-    function guqiang() {
-      var abc = hhh;
-    }
 
 
 (Damn! The Github is not so easy to use!)
+
+    function abc() {
+     var a = b;
+    }
