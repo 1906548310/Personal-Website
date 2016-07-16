@@ -196,3 +196,49 @@ img.article-img {
   margin-top: 2%;
   margin-bottom: 0px;
 }
+
+/*works.html*/
+
+.works-body {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width:1042px;
+}
+
+.page-list li {
+  list-style-type: none;
+  margin-left: 0px;
+  float:left;
+}
+
+.page-list li:first-child {
+  padding-left:5%;
+}
+
+.page-list {
+  padding: 0px;
+}
+
+.sele {
+  display:inline;
+  position:relative;
+  width: 320px;
+}
+.sele:hover {
+  border:none;
+}
+.sele:hover span {
+  height: 198px;
+}
+.sele span {
+  position:absolute;
+  left:0;
+  bottom:0;
+  overflow:hidden;
+  width:100%;
+  height: 0;
+  background:#000;
+  opacity:0.8;
+  filter:alpha(opacity=50)
+}
