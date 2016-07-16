@@ -1,0 +1,535 @@
+.full-page {
+	background-image: url(images/back.jpg);
+	font-family: "Microsoft YaHei";
+}
+
+.page {
+	margin: -20px;
+	padding:0;
+	border: 0;
+	width:959px;
+	height: 1500px;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -27px;
+	overflow: hidden;
+	height: 1010px;
+}
+
+.top-image {
+	background: transparent url(images/top.jpg) no-repeat top left; 
+	margin-top: 20px; 
+	margin-bottom: 0px; 
+	width: 959px; 
+	height: 147px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.line-01 {
+	background: transparent url(images/nav_bg.gif) repeat-x top left; 
+	top: 0px; 
+	bottom: 0px; 
+	width: 959px; 
+	height: 35px; 
+	font-size: 15px;
+	color:#FFF;
+}
+
+.line-02-1 {
+	position: relative;
+	margin-top: 0px; 
+	margin-left: 295px; 
+	padding-top: 8px;
+	width: 5px; 
+	height: 32px; 
+}
+/*我想在这里安排一系列小竖条，但没成功，试过笨方法，但还是不行，算了，暂时搁置好了。*/
+
+.table-01 {
+	padding-top:3px;
+	position: relative;
+	margin-left: 0px;
+	margin-top: -40px;
+}
+
+
+
+.item01 {
+	width:11%;
+	text-align: center;
+	color:#FFF000;
+	font-size: 12px;
+}
+
+.item02 {
+	width:5%;
+	text-align: center;
+}
+
+.item03 {
+	width:5%;
+	text-align: center;
+}
+
+.item04 {
+	width:5%;
+	text-align: center;
+}
+
+.item05 {
+	width:5%;
+	text-align: center;
+}
+
+.item06 {
+	width:5%;
+	text-align: center;
+}
+
+.item07 {
+	width:5%;
+	text-align: center;
+}
+
+.item08 {
+	width:5%;
+	text-align: center;
+}
+
+.item09 {
+	width:5%;
+	text-align: center;
+}
+
+.left-01 {
+	position: relative;
+	margin-left: 5px;
+	margin-top: 3px;
+	width: 200px;
+}
+
+.left-02 {
+	position: relative;
+	margin-left: 5px;
+	margin-top: -12px;
+	text-align: center;
+	width: 200px;
+	height: 35px;
+	line-height:35px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	background-color: #F0F8FF;
+}
+
+.left-03 {
+	position: relative;
+	left:5px;
+	top:5px;
+}
+
+.left-04 {
+	position: relative;
+	left:5px;
+	top:12px;
+}
+
+.left-05 {
+	position: relative;
+	left: 50px;
+	text-align: left;
+}
+
+.left-06 {
+	position: relative;
+	margin-left: 5px;
+	margin-top: -12px;
+	text-align: center;
+	width: 200px;
+	height: 35px;
+	line-height:35px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	background-color: #F0F8FF;
+	top: 14px;
+}
+
+.left-07 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-355px;
+	left:12px;
+	background-position: 0px 0px;
+}
+
+.left-08 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-345px;
+	left:12px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -52px;
+}
+
+.left-09 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-337px;
+	left:12px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -624px;
+}
+.left-10 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-331px;
+	left:12px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -105px;
+}
+
+.left-11 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-321px;
+	left:12px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -159px;
+}
+
+.left-12 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-315px;
+	left:12px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -210px;
+}
+
+.left-13 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-310px;
+	left:12px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -261px;
+}
+
+.left-14 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-300px;
+	left:12px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -312px;
+}
+
+.left-15 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-295px;
+	left:12px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -363px;
+}
+
+.left-16 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-290px;
+	left:12px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -414px;
+}
+
+.left-17 {
+	position: relative;
+	left:5px;
+	top:-283px;
+}
+
+/*从这里开始排中间一列*/
+
+.center-01 {
+	position: relative;
+	background-color: #FFF000;
+	top: -982px;
+	left: 208px;
+	width: 550px;
+	height: 235px;
+}
+
+.center-01-top {
+	background: #f7f7f7 url(images/news-top.png) 0 0 no-repeat;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #d1510f;
+	padding-left: 60px;
+	font-weight: bold;
+	margin-top: -15px;
+}
+
+#search {
+	position: relative;
+	background: url(images/search_bg1_1.gif) repeat-x;
+	top:-989px;
+	left:208px;
+	width: 550px;
+	height: 34px;
+	text-align: left;
+	line-height: 34px;
+}
+
+.search-p {
+	position: relative;
+	left:20px;
+	font-size: 14px;
+}
+
+.search-input {
+	position: relative;
+	top: -43px;
+	left: 95px;
+	width:300px;
+}
+
+.button-01 {
+	position: relative;
+	background: url(images/search_submit_1.jpg) no-repeat;
+	width:100px;
+	height: 34px;
+	top: -65px;
+	left: 425px;
+}
+
+.picture-01 {
+	position: relative;
+	background: url(images/btn-kyfg.png) no-repeat;
+	width:300px;
+	height: 60px;
+	top: -982px;
+	left: 207px;
+}
+
+.picture-02 {
+	position: relative;
+	background: url(images/btn-hyfg.png) no-repeat;
+	width:270px;
+	height: 60px;
+	top: -1042px;
+	left: 490px;
+	overflow: hidden;
+}
+
+.center-03 {
+	position: relative;
+	background: #FFEFDB ;
+	top: -1045px;
+	left: 208px;
+	width: 550px;
+	height: 360px;
+}
+
+.table-02 {
+	background-color: #8B8378;
+	width:550px;
+	height: 38px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.right-01 {
+	position: relative;
+	top: -1745px;
+	left: 765px;
+	width: 200px;
+}
+
+.right-02 {
+	position: relative;
+	top: -1755px;
+	left: 765px;
+	width: 188px;
+	text-align: center;
+	height: 35px;
+	line-height:35px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	background-color: #F0F8FF;
+}
+
+.right-03 {
+	position: relative;
+	width:188px;
+	height: 60px;
+	top:-1753px;
+	left:765px;
+}
+
+.right-04 {
+	position: relative;
+	width:188px;
+	height: 60px;
+	top:-1715px;
+	left:765px;
+	overflow: hidden;
+}
+
+.right-05 {
+	position: relative;
+	left: 50px;
+	text-align: left;
+}
+
+.right-06 {
+	position: relative;
+	margin-top: -12px;
+	top:-1715px;
+	left:765px;
+	width: 188px;
+	height: 35px;
+	line-height:35px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	background-color: #F0F8FF;
+}
+
+.right-07 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-1823px;
+	left:770px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -469px;
+}
+
+.right-08 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-1807px;
+	left:770px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -520px;
+}
+
+.right-09 {
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+	top:-1815px;
+	left:770px;
+	background-image: url(images/item_z.png);
+	background-repeat:no-repeat;
+	background-position: 0 -571px;
+}
+
+.right-10 {
+	background-image: url(images/ico_link001.gif);
+	position: relative;
+	width:188px;
+	height: 30px;
+	top:-1802px;
+	left:765px;
+	overflow: hidden;
+}
+
+.right-11 {
+	position: relative;
+	width:188px;
+	height: 200px;
+	top:-1799px;
+	left:765px;
+	overflow: scroll;
+}
+
+ul {
+	position: relative;
+	margin-left:-30px;
+	font-size: 13px;
+}
+
+.line-bottom-01 {
+	position: relative;
+	width:920px;
+	height: 5px;
+	background-color: #0000FF ;
+	top:-1790px;
+	left:15px;
+}
+
+.bottom-p {
+	position: relative;
+	text-align: center;
+	top:-1775px;
+	left:15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12.5px;
+	line-height: 6px;
+}
+
+.line-bottom-02 {
+	position: relative;
+	width:959px;
+	height: 1px;
+	background-color: #0000FF ;
+	top:-1775px;
+	left:0px;
+}
+
+.QR-div {
+	position: fixed;
+	background-color: #FFF;
+	margin:0px;
+	top:183px;
+	left:0px;
+	width: 103px;
+	height: 145px;
+	display: block;
+}
+
+.QR-img {
+	position: relative;
+	width:80px;
+	height: 80px;
+	margin: 0;
+	padding:0;
+	border:0;
+	top:20px;
+	left:12px;
+}
+
+.QR-p {
+	font-size: 12px;
+	text-align: center;
+	font-family: "Microsoft YaHei";
+	margin-top: 25px;
+}
+
+/*overflow: scroll；     前面被用来处理溢出文本，假如溢出，则自动加上滚动条*/
