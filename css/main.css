@@ -12,8 +12,8 @@ body {
 
 div.navigator {
   position: fixed;
-  left:100px;
-  right:100px;
+  left:10%;
+  right:10%;
   top:20px;
   background-color: orange;
   height:50px;
@@ -30,21 +30,21 @@ div.navigator {
   float:left;
 }
 
-ul {
+.navigator-list {
   margin-top: 12px;
 
 }
 
-li {
+.navigator-list li {
   margin-left: 20px;
   padding: 2px;
 }
 
-li:hover {
+.navigator-list li:hover {
   border-style:none none solid none; 
 }
 
-div ul li {
+.navigator-list li {
   list-style-type: none;
   display:inline;
   font-size: 1.2em;
@@ -107,19 +107,19 @@ input {
 
 /*以下是媒体查询*/
 @media screen and (max-width: 828px) {
-  li {
-    margin-right: -15px;
+  .navigator-list li {
+    margin-right: -20px;
     text-align: center;
   }
 }
 @media screen and (min-width: 829px) and (max-width: 1024px) {
-  li {
-    margin-right: 24px;
+  .navigator-list li {
+    margin-right: 12px;
     text-align: center;
   }
 }
 @media screen and (min-width: 1025px) {
-  li {
+  .navigator-list li {
     margin-right: 50px;
     text-align: center;
   }
@@ -131,9 +131,11 @@ input {
   }
   .right-text {
     float:none;
-    width:250px;
+    width:400px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.8em;
   }
 }
 
@@ -148,4 +150,49 @@ input {
 }
 .contact-information p {
   margin-left: 10px;
+}
+
+/*article.html*/
+
+.article-img-right {
+  position:absolute;
+  right:0px;
+  width: 40%;
+  height:auto;
+  z-index: -2;
+  top:8%;
+}
+
+div.article-body {
+  margin-top: 100px;
+}
+
+img.article-img {
+  width: 100%;
+  height:100%;
+}
+
+.article-page {
+  margin-left: 15%;
+  border-bottom: 1px dotted black;
+  width:45%;
+  padding-bottom: 1%;
+}
+
+.article-page-ul {
+  margin:0px;
+  padding:0px;
+}
+
+.article-page li{
+  list-style-type: none;
+  display: inline;
+  font-size: 0.5em;
+}
+
+.article-page p {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 2%;
+  margin-bottom: 0px;
 }
