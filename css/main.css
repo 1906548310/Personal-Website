@@ -82,6 +82,7 @@ div.index-page {
   visibility: hidden;
   background-color:black;
   position:absolute;
+  z-index:1;
   top:0px;
   opacity: 0.8;
   -webkit-opacity:0.8;
