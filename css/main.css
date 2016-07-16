@@ -1,0 +1,151 @@
+body {
+  margin:0px;
+}
+
+.main-pic {
+  max-width: 50%;
+  height:auto;
+}
+.main-page01 {
+  background-color: white;
+}
+
+div.navigator {
+  position: fixed;
+  left:100px;
+  right:100px;
+  top:20px;
+  background-color: orange;
+  height:50px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  float:left;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  float:left;
+}
+
+ul {
+  margin-top: 12px;
+
+}
+
+li {
+  margin-left: 20px;
+  padding: 2px;
+}
+
+li:hover {
+  border-style:none none solid none; 
+}
+
+div ul li {
+  list-style-type: none;
+  display:inline;
+  font-size: 1.2em;
+  font-family: "Microsoft YaHei";
+}
+
+h2 {
+  font-family: "Microsoft YaHei";
+}
+
+.nav-01 {
+  margin:0 auto;
+  width:800px;
+  height: 50px;
+}
+
+.right-text {
+  float:right;
+  width:20%;
+  color: black;
+  margin-top:20%;
+  margin-right:10%;
+}
+
+a {
+  text-decoration:none;
+}
+
+div.index-page {
+}
+
+#full-screen {
+  width:100%;
+  height:100%;
+  visibility: hidden;
+  background-color:black;
+  position:absolute;
+  top:0px;
+  opacity: 0.8;
+  -webkit-opacity:0.8;
+  -moz-opacity:0.8;
+  -o-opacity:0.8;
+  -ms-opacity:0.8;
+}
+
+div.banana {
+  position:absolute;
+  width:50px;
+  height:50px;
+  right:10px;
+  top: 0px;
+}
+
+input {
+  position: absolute;
+  right:70px;
+  top: 15px;
+  width:100px;
+}
+
+/*以下是媒体查询*/
+@media screen and (max-width: 828px) {
+  li {
+    margin-right: -15px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 829px) and (max-width: 1024px) {
+  li {
+    margin-right: 24px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1025px) {
+  li {
+    margin-right: 50px;
+    text-align: center;
+  }
+}
+@media screen and (orientation:portrait) {
+  .main-pic {
+  max-width: 100%;
+  height:auto;
+  }
+  .right-text {
+    float:none;
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.contact-information {
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 250px;
+  height:100px;
+  top:300px;
+}
+.contact-information p {
+  margin-left: 10px;
+}
