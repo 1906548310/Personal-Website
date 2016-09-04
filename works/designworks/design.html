@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>设计作品</title>
+    <link href="../../image/logo.png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <script type="text/javascript" src="../../js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.div-display').click(function() {
+          $('#full-screen').css("visibility","visible");
+          });
+        $('#full-screen').click(function() {
+          $('#full-screen').css("visibility","hidden");
+          });
+      });
+    </script>
+    <style type="text/css">
+      .works-display-page {
+        margin-left:auto;
+        margin-right:auto;
+        width:80%;
+        margin-top: 100px;
+      }   
+      .works-display-page img {
+        width:50%;
+        height: auto;
+        left:auto;
+        right:auto;
+      }
+      button {
+        font-size: 1.5em;
+        color: white;
+        background-color: black;
+        border: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="full-screen">
+      <div class="contact-information">
+        <p><br/>姓名：顾强</p><p>手机号码：18010099155</p><p>邮箱：1906548310@qq.com</p>
+      </div>
+    </div>
+
+       <!--以下是导航栏-->
+       <div class="navigator">
+         <div class="logo">
+           <img src="../../image/logo-top.png">
+         </div>
+         <div class="nav-01">
+           <ul class="navigator-list">
+             <li><a href="../../index.html">首页</a></li>
+             <li><a href="../../works.html">个人作品</a></li>
+             <li><a href="../../article.html">原创文章</a></li>
+             <li><a href="#">兴趣爱好</a></li>
+             <li class="div-display"><a href="#">欢迎勾搭</a></li>
+         </div>
+         <input type="text" name="search" placeholder="请输入搜索内容">
+         <div class="banana">
+             <img src="../../image/banana.png">
+         </div>
+       </div>
+
+       <!--以下是网页主体-->
+       <div class="works-display-page">
+         
+         <center>
+         <h2>拙作一览</h2>
+         <img src="image/hb-01.jpg">
+         <img src="image/hb-02.jpg">
+         <img src="image/hb-03.jpg">
+         <img src="image/hb-04.jpg">
+         <img src="image/hb-05.jpg">
+         <img src="image/hb-06.jpg">
+         <img src="image/shuqian.jpg">
+         <img src="image/演讲海报.jpg">
+         <p>&lt;大学专业把排版作为基本要求，于是就多了一项兴趣，而且有助于做好前端工作&gt;</p>
+         <div style="height:10px;"></div>
+         <a href="design-pubuliu.html" target="-blank"><button type="button">瀑布流浏览</button></a>
+         <div style="height:100px;"></div>
+         </center>
+       </div>
+
+    
+  </body>
+
+</html>
