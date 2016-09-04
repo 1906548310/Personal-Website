@@ -139,6 +139,9 @@ input {
     margin-right: auto;
     font-size: 1.8em;
   }
+  .navigator {
+    position: absolute;
+  }
 }
 
 .contact-information {
@@ -147,7 +150,7 @@ input {
   margin-right: auto;
   background-color: white;
   width: 250px;
-  height:100px;
+  height:140px;
   top:300px;
 }
 .contact-information p {
@@ -178,7 +181,7 @@ img.article-img {
   margin-left: 15%;
   border-bottom: 1px dotted black;
   width:45%;
-  padding-bottom: 1%;
+  padding-bottom: 0.5%;
 }
 
 .article-page-ul {
@@ -189,7 +192,7 @@ img.article-img {
 .article-page li{
   list-style-type: none;
   display: inline;
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 
 .article-page p {
@@ -210,7 +213,7 @@ img.article-img {
 
 .page-list li {
   list-style-type: none;
-  margin-left: 0px;
+  margin-left: 5px;
   float:left;
 }
 
@@ -231,11 +234,11 @@ img.article-img {
   border:none;
 }
 .sele:hover span {
-  height: 198px;
+  height: 202px;
 }
 .sele span {
   position:absolute;
-  left:0;
+  left:-2px;
   bottom:0;
   overflow:hidden;
   width:100%;
